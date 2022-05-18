@@ -43,7 +43,7 @@ const jsonData = JSON.stringify(data); // this is the data that is going to be s
    const url="https://us9.api.mailchimp.com/3.0/lists/94ffb4452a"
     const options = {
         method: 'POST', // this is the method that is going to be used to send the data
-        auth: "oddthomas:7c8fbb016b043d0203c8c6e8c50a5fc4-us9" // this is the authentication that is going to be used to send the data
+        auth: "oddthomas:" // this is the authentication that is going to be used to send the data
     }
 
    const request = https.request(url, options, function(response){
@@ -64,7 +64,6 @@ const jsonData = JSON.stringify(data); // this is the data that is going to be s
 
 
 //api
-//7c8fbb016b043d0203c8c6e8c50a5fc4-us9
 
 //list id
 //94ffb4452a
